@@ -1,0 +1,33 @@
+import java.io.*;
+class OctalToDecimal
+{
+	public static void main(String arg[])
+	{
+		try
+		{
+			DataInputStream t=new DataInputStream(System.in);
+			System.out.println("binary number");
+			String bin=t.readLine();
+			int len=bin.length();
+			System.out.println(len);
+			int i=0;
+			int d=0;  
+			while(i<len)
+			{
+
+				char a=bin.charAt(i);
+				if(a==49)
+					d=(d*2)+1;
+				else if(a==48)
+					d=(d*2);
+				i++;
+						
+			}
+			System.out.println(d);
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+	}
+}

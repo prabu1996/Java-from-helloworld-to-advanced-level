@@ -1,0 +1,2 @@
+User interactive method is nothing  but how we are going to get inputs from user,we will learn
+	1.Syntax to get input from user 

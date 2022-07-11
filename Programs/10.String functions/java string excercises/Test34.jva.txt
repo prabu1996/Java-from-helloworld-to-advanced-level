@@ -1,0 +1,9 @@
+class Test34
+{
+	public static void main(String arg[])
+	{
+		String a="successes";
+		char c=get2ndMostFreq(a);
+		System.out.println(c);
+	}
+}

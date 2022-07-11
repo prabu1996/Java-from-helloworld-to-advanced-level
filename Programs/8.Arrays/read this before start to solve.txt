@@ -1,0 +1,1 @@
+1.Array is one type of datastructure

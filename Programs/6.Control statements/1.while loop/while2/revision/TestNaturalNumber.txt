@@ -1,0 +1,15 @@
+import java.io.*;
+class TestNaturalNumber
+{
+	public static void main(String arg[])
+	{
+		try
+		{
+		
+		}
+		catch (Exception e)
+		{
+			System.out.println(e);
+		}
+	}
+}

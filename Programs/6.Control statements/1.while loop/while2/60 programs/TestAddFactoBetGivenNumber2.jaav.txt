@@ -1,0 +1,30 @@
+import java.io.*;
+class TestAddFactoBetGivenNumber
+{
+	public static void main(String arg[])
+	{
+		try
+		{
+			DataInputStream t=new DataInputStream(System.in);
+			int Input,InitialValue,Factorial;
+			double Output,c;
+			System.out.println("input= ?");
+			Input=Integer.parseInt(t.readLine());
+			InitialValue=1;
+			Factorial=1;
+			Output=0;
+			while(InitialValue<=Input)
+			{
+				Factorial*=InitialValue;
+				c=1/Factorial;
+				Output+=c;
+				InitialValue++;	
+			}
+			System.out.println(Output);
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+	}
+}
